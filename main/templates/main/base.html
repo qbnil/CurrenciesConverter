@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    
+    {% block styles %}
+      <!-- Add your site-wide CSS files here -->
+    {% endblock %}
+
+    {% block scripts %}
+      <!-- Add your site-wide JavaScript files here -->
+    {% endblock %}
+  </head>
+  
+  <body>
+    <header>
+      <!-- Add your site header here -->
+    </header>
+
+    <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+
+    <footer>
+      <!-- Add your site footer here -->
+    </footer>
+
+    {% block extra_scripts %}
+      <!-- Add any additional JavaScript files required for this template here -->
+    {% endblock %}
+  </body>
+</html>
