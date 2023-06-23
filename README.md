@@ -9,7 +9,7 @@ Installation
 
     Clone the repository from GitHub using the following command:
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/qbnil/CurrenciesConverter.git
 
 Navigate to the project directory:
 
