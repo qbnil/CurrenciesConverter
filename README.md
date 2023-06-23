@@ -18,6 +18,7 @@ cd CurrenciesConverter
 Create a virtual environment and activate it: (Разверните виртуальное окружение)
 
 Install virtualenv package using pip: pip install virtualenv
+
 Create a new virtual environment by running the command:
 
     For Windows: virtualenv env
