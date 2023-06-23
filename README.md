@@ -17,8 +17,8 @@ cd CurrenciesConverter
 
 Create a virtual environment and activate it: (Разверните виртуальное окружение)
 
-python3 (or simply using python without 3) -m venv venv
-source venv/bin/activate
+1) python3 -m venv venv
+2) source venv/bin/activate
 
 Install the required packages from the requirements.txt file: (Установите зависимости из файла - requirements.txt)
 
