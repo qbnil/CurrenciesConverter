@@ -17,8 +17,18 @@ cd CurrenciesConverter
 
 Create a virtual environment and activate it: (Разверните виртуальное окружение)
 
-1) python3 -m venv venv
-2) source venv/bin/activate
+Install virtualenv package using pip: pip install virtualenv
+Create a new virtual environment by running the command:
+
+    For Windows: virtualenv env
+    For Linux/Mac OS: python -m venv env (Here "env" is the name of the virtual environment you want to create. You can choose any name you like.)
+
+Activate the virtual environment by running the command:
+
+    For Windows: .\env\Scripts\activate
+    For Linux/Mac OS: source env/bin/activate
+
+
 
 Install the required packages from the requirements.txt file: (Установите зависимости из файла - requirements.txt)
 
